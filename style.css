@@ -1,0 +1,153 @@
+body{
+    margin: 0;  
+}
+a{
+      text-decoration: none;
+}
+li{
+    list-style: none;
+    
+}
+ul{
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0%;
+    height: 245px;
+}
+header{
+    position: absolute;
+    left: 45px;
+    top: 45px;
+}
+.header__burger{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 62px;
+    height: 324px;
+    
+    background: #D9D9D9;
+    border-radius: 34px;
+}
+
+    
+.burger__active{
+    position: relative;
+    width: 52px;
+    height: 51px;
+    z-index: 1;
+    background-color: grey;
+    border-radius: 34px;
+}
+.menu__sattelite{
+    
+    width: 40px;
+    height: 40px;
+
+    
+}
+.menu__lighting{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30px;
+    height: 42px;
+
+}
+.menu__clouds{
+   
+    width: 46px;
+    height: auto;
+
+}
+.menu__sunrise{
+    
+    width: 46px;
+    height: auto;
+}
+.menu__moonphase{
+    width: 46px;
+    height: auto;
+}
+iframe{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+.burger__menu{
+    overflow: hidden;
+    
+}
+.burger{
+    position: relative;
+}
+.circle{
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 40px;
+
+}
+.circle2{
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 40px;
+
+}
+.main__calc{
+    padding: 8px 25px 15px 25px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background: #D9D9D9;
+    border-radius: 34px;
+    display: none;
+}
+.calc__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__res{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.form__lat, .form__dec,.form__ra{
+    margin-bottom: 13px;
+    width: 468px;
+    height: 45px;
+    border-radius: 34px;
+    border: none;
+}
+.res__rise,.res__set,.res__az,.res__timer,.res__times{
+    width: 181px;
+    height: 45px;  
+    border-radius: 34px;
+    border: none;
+    align-items: center;
+}
+.form__btn{
+    width: 468px;
+    height: 23px;  
+    border-radius: 34px;
+    border: none;
+    
+}
+.form__btn:active{
+    border: 1px solid black;
+}
+footer{
+    color: rgb(254, 254, 254);
+    width: 100%;
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    padding-left: 10%;
+    background-color: rgb(70, 70, 70);
+}
+main{
+    background-color: rgb(132, 132, 132);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header__burger">
+            <img src="images/Burger.png" alt="" class="burger__active">
+            <div class="burger__menu">
+                <ul class="burger">
+                    <li>
+                        <img src="images/Sattelite.png" alt="" class="menu__sattelite">
+                    </li>
+                    <li>
+                        <img src="images/Lighting.png" alt="" class="menu__lighting">
+                    </li>
+                    <li>
+                        <img src="images/Clouds.png" alt="" class="menu__clouds">
+                    </li>
+                    <li>
+                        <img src="images/Moon.png" alt="" class="menu__sunrise">
+                    </li>
+                    <li>
+                        <img src="images/moonphase.png" alt="" class="menu__moonphase">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main__calc">
+            <form action="#" class="calc__form">
+                <input type="text" class="form__lat" placeholder="Введите широту наблюдателя">
+                <input type="text" class="form__dec" placeholder="Введите долготу наблюдателя">
+                <div class="form__res">
+                    <h1 class="res__title">
+                       Часовой угол: 
+                    </h1>
+                    <input type="text" class="res__rise">
+                    <h2 class="res__title">
+                        Азимут:
+                    </h2>
+                    <input type="text" class="res__set">
+                    <h3 class="res__title">
+                        Время восхода:
+                    </h3>
+                    <input type="text" class="res__timer">
+                    <h4 class="res__title">
+                        Время захода:
+                    </h4>
+                    <input type="text" class="res__times">
+                </div>
+                <input type="button" class="form__btn" value="Вычислить!">
+            </form>
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1943.3677101879973!2d83.09686524521616!3d54.83389108044935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sru!4v1666789401384!5m2!1sru!2sru"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+    <footer>
+        <p>@2022 Все права защищены</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="anime.min.js"></script>
+</body>
+</html>
